@@ -12,7 +12,7 @@ The two datasets, LOG_DATA and SONG_DATA, are json files located in separate S3 
 
 **Staging_songs** This table is comprised of the following fields:num_songs, artist_id, artist_latitude, artist_longitude, artist_location, artist_name, song_id, title, duration, year
 
-# Schema Overview
+# Development of Star Schema
 
 The staging tables are used for generating the **songplays**, **users**, **songs**, **artists**, and **time** tables.
 
@@ -29,3 +29,6 @@ The staging tables are used for generating the **songplays**, **users**, **songs
 **artists**: This dimension table is composed of artist_id, name, location, latitutde, longitude
 
 **time**: This dimension table is composed of timestamp, hour, day, week, month, year, weekday
+
+# Quality Control
+Specific to this project, the primary mode of quality control is ensuring that no tables are empty. 
