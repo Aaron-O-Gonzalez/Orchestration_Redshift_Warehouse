@@ -2,7 +2,7 @@
 
 This project uses an Airflow directed acyclic graph (DAG) to collect raw data from S3 buckets, create tables for data staging, and create a data warehouse adhering to a snowflake schema. Our DAG is comprised of the following tasks:
 
-
+![DAG](https://github.com/Aaron-O-Gonzalez/Orchestration_Redshift_Warehouse/blob/master/airflow_dag.png)
 
 # Staging Tables
 
